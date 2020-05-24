@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.Abstraction.IRiotClient.html",
-          "hash": "W07meY/wWN3rY3stvqM6YQ=="
+          "hash": "/RCG56rgeUw/sUpohg/rfQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.Core.LeagueOfLegendsClient.html",
-          "hash": "f2yQOYzFsi0y4ZQNCFNKrA=="
+          "hash": "WC4HKduBhutiNl4frP4qjQ=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.Core.LegendsOfRunaterraClient.html",
-          "hash": "tuNj7HFY0QBcEfvhu/kvZw=="
+          "hash": "cgOFP/p9dVddRwEfzfg+7Q=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.Core.TeamfightTacticsClient.html",
-          "hash": "DBNS5/yAzM5VcXnSfqTSNw=="
+          "hash": "H7aaVnGWaGCXfSyMgGYcXQ=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Converters.ChampionTypeJsonConverter.html",
-          "hash": "AAtnwToWrvdYA9n+EcIE+w=="
+          "hash": "gOizUCszl9rRW0uUvcPTYw=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Converters.DoubleArrayJsonConverter.html",
-          "hash": "l7Po1PclSFeg+h6W4MImtA=="
+          "hash": "lndZZIGedTe+N4ffYFyK9w=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Converters.GameVersionJsonConverter.html",
-          "hash": "vUtqqAI0SHd1moVGvN0LEA=="
+          "hash": "6hBELJRPFwVOTtdUrREDGA=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Converters.LanguageJsonConverter.html",
-          "hash": "BGqDUXA++DH9e4QYFtC3fw=="
+          "hash": "DNWevJZTAQ/txCU2xu013A=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.DataDragonClient.html",
-          "hash": "7JLfWqLfSOxolagh4Q5zNw=="
+          "hash": "3UYFCQNxtgd2GDRzq7LM3w=="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.DataDragonClientOptions.html",
-          "hash": "SQeQZpESq/2AomVCwHtLBA=="
+          "hash": "4umzsNFIUC8SvjHd6wzirA=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.DataNotFoundException.html",
-          "hash": "UTefsx9Xl+xrh9mhcy4dBQ=="
+          "hash": "fsFYi5Q2HFJSBbk5imV6lg=="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.Block.html",
-          "hash": "3ohxEsZBNdDp+3+lPpUHMw=="
+          "hash": "xEBzTzBUnuQlCyzDRfhlPg=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.Champion.html",
-          "hash": "kdNY5yrKn+xLzCbWhax1rg=="
+          "hash": "Il8eXZh5mKxXfmWAjfAsQw=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ChampionInformation.html",
-          "hash": "EyS27rqNzmFUKrBrYDM+Jg=="
+          "hash": "7SAhr9GYlPB9ovH617QYoQ=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ChampionSkin.html",
-          "hash": "h36vSQQ9BFMRqPenBcNmgg=="
+          "hash": "xI4RBhgfxTcl82vu456BDg=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ChampionStatistics.html",
-          "hash": "79l9duhNQ54kA8wkLDdDXA=="
+          "hash": "SMbspkqgHS1CJl68DS7X+Q=="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.GameVersion.html",
-          "hash": "vJdUVqV16euDqQJKVI9UOQ=="
+          "hash": "tQu4cGh5dEB6pfNo5IgU5Q=="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ImageInformation.html",
-          "hash": "ocVSGSymHi0x7q66AGNkNA=="
+          "hash": "3/yiF0DPO6sknNOWo/sr6g=="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.Item.html",
-          "hash": "ak318/iXzh2cSRo8+PqEmw=="
+          "hash": "J2SPRQ+ukU1qBli2erwbsQ=="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ItemBlock.html",
-          "hash": "OxHLhwRFX2h/8RhdmCQKdQ=="
+          "hash": "XYHCnrj3Y7WQ24mdSTetDw=="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ItemEffect.html",
-          "hash": "NABx5Z6vXJH5+TiJyJiOBQ=="
+          "hash": "W+7jvgLiFTfJ9Nc1hTxZxA=="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ItemEffectDto.html",
-          "hash": "VTRTwBoRFxGDEh7izkeL9A=="
+          "hash": "oWIQQLYW35UPh3zmzU6U2Q=="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ItemGold.html",
-          "hash": "AFdKg0KDiekPSogBRi8OTg=="
+          "hash": "R7nmWIAcDT1iFluabQM7xA=="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ItemGroup.html",
-          "hash": "39dGuy1ZOwpTzI36meVMYQ=="
+          "hash": "TTZcbgp/9tP6TcFIizunuw=="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ItemTree.html",
-          "hash": "g9VcByMwh1414Sml6iyBZA=="
+          "hash": "s4Rbch4ky4NKriXktz27Iw=="
         }
       },
       "is_incremental": false,
@@ -354,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ItemTreeDto.html",
-          "hash": "6mI08O3JVKLGKriGQ0a2AQ=="
+          "hash": "1K5d1rai7KOvwXQmgM7fgQ=="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.LevelTip.html",
-          "hash": "eXmlEVHH2JPZVF0YvZTy0Q=="
+          "hash": "7QYSdUlIS9MF+yWn9lvPoQ=="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.Map.html",
-          "hash": "U6rXSj6WyVxjDU+RAjfSLA=="
+          "hash": "HpSIDhFwA+2/9tu4f1TDBg=="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.MissionAsset.html",
-          "hash": "O8caTlsQrpOqvMFgXYIUfg=="
+          "hash": "jEBbhOAgmqPPDO+wORffQQ=="
         }
       },
       "is_incremental": false,
@@ -402,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ProfileIcon.html",
-          "hash": "XBuKhKYhlGEe5SWBj+aZyA=="
+          "hash": "YYCubo5ybOgeuTNEZNJkHw=="
         }
       },
       "is_incremental": false,
@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.Recommendation.html",
-          "hash": "s4Zag/w++P8QXLnY4e8kRw=="
+          "hash": "BJFB8g8wudPpV9VqYKrMgA=="
         }
       },
       "is_incremental": false,
@@ -426,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.Rune.html",
-          "hash": "YVEkyCYJjsQIJ9zVuykJ4g=="
+          "hash": "Ax25c2qcjZ17qCBAXsjXvQ=="
         }
       },
       "is_incremental": false,
@@ -438,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.RuneItem.html",
-          "hash": "k0mEgyoEKzcDtnWGcgaDOw=="
+          "hash": "Zxs1Sf+mjzts59zGRH4U2Q=="
         }
       },
       "is_incremental": false,
@@ -450,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.RuneItemDto.html",
-          "hash": "Lqdy9xSTuBtDd9iU11nAmA=="
+          "hash": "rTZ+RWajTp9vNnHkT1t31w=="
         }
       },
       "is_incremental": false,
@@ -462,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.RuneSlot.html",
-          "hash": "YsPUfytvcs5j6ayoEFe5Ug=="
+          "hash": "GWdmgWSup8rQwbuhTrEl0A=="
         }
       },
       "is_incremental": false,
@@ -474,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.Spell.html",
-          "hash": "6eBxjOD1METcoPAVNv5zlA=="
+          "hash": "4v1/0P3PX9fWHu11dQx7Lw=="
         }
       },
       "is_incremental": false,
@@ -486,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.SpellBase.html",
-          "hash": "+7DwlEHPu+Yvu7QucdGZLA=="
+          "hash": "LUqxPwaX/nBLrgp6QS8sug=="
         }
       },
       "is_incremental": false,
@@ -498,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.SpellVar.html",
-          "hash": "wUDgtRHkj6mXSauL4oi5HQ=="
+          "hash": "1eyregO1Hw0o7/pvYyOX2A=="
         }
       },
       "is_incremental": false,
@@ -510,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.SummonerSpell.html",
-          "hash": "P3d8fvuXe5jbi/RdzBWsHQ=="
+          "hash": "isd1im67J4VH/0JxuKvPRg=="
         }
       },
       "is_incremental": false,
@@ -534,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Enums.BlockSummonerSpell.html",
-          "hash": "vTBQNeDFlIqeq6WUYnoeyQ=="
+          "hash": "eKiFV2GFgOWapf8LnHHVDQ=="
         }
       },
       "is_incremental": false,
@@ -546,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Enums.CacheMode.html",
-          "hash": "yx1H+yhqKtTCvxePzuVI7Q=="
+          "hash": "Vwr0yH7afqCnpv3JtoZY7Q=="
         }
       },
       "is_incremental": false,
@@ -558,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Enums.ChampionAbility.html",
-          "hash": "GjnzEZMnTVrFs0c9U+7s7A=="
+          "hash": "AhQakOyOtq6y3R7kTY1XgA=="
         }
       },
       "is_incremental": false,
@@ -570,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Enums.ChampionId.html",
-          "hash": "IFBK+bxlQNUUi0b49uYsRw=="
+          "hash": "QzygIxdIFtXpOuI6g6QNpg=="
         }
       },
       "is_incremental": false,
@@ -582,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Enums.ChampionType.html",
-          "hash": "Ecd3641O7hCeo1z63vVIEw=="
+          "hash": "ZlKWrQGglPIKK0VLkxDa0w=="
         }
       },
       "is_incremental": false,
@@ -594,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Enums.ImageGroup.html",
-          "hash": "AIZqMX7C4O1A+oYw0+6Faw=="
+          "hash": "ps9VOWLM/K7eo9cPGxTwog=="
         }
       },
       "is_incremental": false,
@@ -606,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Enums.Language.html",
-          "hash": "kZ6QThnivMM5P/EscCXhnw=="
+          "hash": "rdZFp3I7ZcH0U3q0PgR+wg=="
         }
       },
       "is_incremental": false,
@@ -618,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Enums.RecommendationMap.html",
-          "hash": "ibMlcerzsRid2AEMqs7LPg=="
+          "hash": "q/xxYp28qRlOzAZQxKRbnQ=="
         }
       },
       "is_incremental": false,
@@ -630,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Enums.RecommendationMode.html",
-          "hash": "lpIuO4X5nKca58vjIk3SzA=="
+          "hash": "KXd376Sxwl78APzitXJjMQ=="
         }
       },
       "is_incremental": false,
@@ -642,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Enums.ResourceType.html",
-          "hash": "AHaKF0bdnRYyZbM6r+6Ohw=="
+          "hash": "Gke8XbDildMB1Pit/HmcOQ=="
         }
       },
       "is_incremental": false,
@@ -654,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Enums.SpellKey.html",
-          "hash": "PDYyruZYJ5BWbVQQx8SSzw=="
+          "hash": "tikCfWZX2cp5QANmUHXV8g=="
         }
       },
       "is_incremental": false,
@@ -678,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Extensions.EnumExtensions.html",
-          "hash": "ciZX8viqGnU38SK45GRL/Q=="
+          "hash": "oJswH6pYCzlqU8ck7H5dMA=="
         }
       },
       "is_incremental": false,
@@ -702,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.IDataDragonClient.html",
-          "hash": "+kteZwCw8do2NdZyfPh+1g=="
+          "hash": "qJ0yHjHrKU7Pg71us0XJuA=="
         }
       },
       "is_incremental": false,
@@ -812,7 +812,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 59,
-          "skipped_file_count": 59
+          "skipped_file_count": 7
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

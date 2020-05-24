@@ -1,0 +1,843 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/user/source/repos/RiotPls/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.Abstraction.IRiotClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.Abstraction.IRiotClient.html",
+          "hash": "W07meY/wWN3rY3stvqM6YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.Abstraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.Abstraction.html",
+          "hash": "6gSHrER3Z8OmfxAAW96DzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.Core.LeagueOfLegendsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.Core.LeagueOfLegendsClient.html",
+          "hash": "f2yQOYzFsi0y4ZQNCFNKrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.Core.LegendsOfRunaterraClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.Core.LegendsOfRunaterraClient.html",
+          "hash": "tuNj7HFY0QBcEfvhu/kvZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.Core.TeamfightTacticsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.Core.TeamfightTacticsClient.html",
+          "hash": "DBNS5/yAzM5VcXnSfqTSNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.Core.html",
+          "hash": "3oYQ+uU8SeYtEZ4msHwdPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Converters.ChampionTypeJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Converters.ChampionTypeJsonConverter.html",
+          "hash": "AAtnwToWrvdYA9n+EcIE+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Converters.DoubleArrayJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Converters.DoubleArrayJsonConverter.html",
+          "hash": "l7Po1PclSFeg+h6W4MImtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Converters.GameVersionJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Converters.GameVersionJsonConverter.html",
+          "hash": "vUtqqAI0SHd1moVGvN0LEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Converters.LanguageJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Converters.LanguageJsonConverter.html",
+          "hash": "BGqDUXA++DH9e4QYFtC3fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Converters.html",
+          "hash": "O1XWwAvK46UqunKxew2cFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.DataDragonClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.DataDragonClient.html",
+          "hash": "7JLfWqLfSOxolagh4Q5zNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.DataDragonClientOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.DataDragonClientOptions.html",
+          "hash": "SQeQZpESq/2AomVCwHtLBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.DataNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.DataNotFoundException.html",
+          "hash": "UTefsx9Xl+xrh9mhcy4dBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.Block.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.Block.html",
+          "hash": "3ohxEsZBNdDp+3+lPpUHMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.Champion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.Champion.html",
+          "hash": "kdNY5yrKn+xLzCbWhax1rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.ChampionInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.ChampionInformation.html",
+          "hash": "EyS27rqNzmFUKrBrYDM+Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.ChampionSkin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.ChampionSkin.html",
+          "hash": "h36vSQQ9BFMRqPenBcNmgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.ChampionStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.ChampionStatistics.html",
+          "hash": "79l9duhNQ54kA8wkLDdDXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.GameVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.GameVersion.html",
+          "hash": "vJdUVqV16euDqQJKVI9UOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.ImageInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.ImageInformation.html",
+          "hash": "ocVSGSymHi0x7q66AGNkNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.Item.html",
+          "hash": "ak318/iXzh2cSRo8+PqEmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.ItemBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.ItemBlock.html",
+          "hash": "OxHLhwRFX2h/8RhdmCQKdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.ItemEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.ItemEffect.html",
+          "hash": "NABx5Z6vXJH5+TiJyJiOBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.ItemEffectDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.ItemEffectDto.html",
+          "hash": "VTRTwBoRFxGDEh7izkeL9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.ItemGold.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.ItemGold.html",
+          "hash": "AFdKg0KDiekPSogBRi8OTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.ItemGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.ItemGroup.html",
+          "hash": "39dGuy1ZOwpTzI36meVMYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.ItemTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.ItemTree.html",
+          "hash": "g9VcByMwh1414Sml6iyBZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.ItemTreeDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.ItemTreeDto.html",
+          "hash": "6mI08O3JVKLGKriGQ0a2AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.LevelTip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.LevelTip.html",
+          "hash": "eXmlEVHH2JPZVF0YvZTy0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.Map.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.Map.html",
+          "hash": "U6rXSj6WyVxjDU+RAjfSLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.MissionAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.MissionAsset.html",
+          "hash": "O8caTlsQrpOqvMFgXYIUfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.ProfileIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.ProfileIcon.html",
+          "hash": "XBuKhKYhlGEe5SWBj+aZyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.Recommendation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.Recommendation.html",
+          "hash": "s4Zag/w++P8QXLnY4e8kRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.Rune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.Rune.html",
+          "hash": "YVEkyCYJjsQIJ9zVuykJ4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.RuneItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.RuneItem.html",
+          "hash": "k0mEgyoEKzcDtnWGcgaDOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.RuneItemDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.RuneItemDto.html",
+          "hash": "Lqdy9xSTuBtDd9iU11nAmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.RuneSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.RuneSlot.html",
+          "hash": "YsPUfytvcs5j6ayoEFe5Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.Spell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.Spell.html",
+          "hash": "6eBxjOD1METcoPAVNv5zlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.SpellBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.SpellBase.html",
+          "hash": "+7DwlEHPu+Yvu7QucdGZLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.SpellVar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.SpellVar.html",
+          "hash": "wUDgtRHkj6mXSauL4oi5HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.SummonerSpell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.SummonerSpell.html",
+          "hash": "P3d8fvuXe5jbi/RdzBWsHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Entities.html",
+          "hash": "cF2re9c+AvLG2W1IJuXlNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Enums.BlockSummonerSpell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Enums.BlockSummonerSpell.html",
+          "hash": "vTBQNeDFlIqeq6WUYnoeyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Enums.CacheMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Enums.CacheMode.html",
+          "hash": "yx1H+yhqKtTCvxePzuVI7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Enums.ChampionAbility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Enums.ChampionAbility.html",
+          "hash": "GjnzEZMnTVrFs0c9U+7s7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Enums.ChampionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Enums.ChampionId.html",
+          "hash": "IFBK+bxlQNUUi0b49uYsRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Enums.ChampionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Enums.ChampionType.html",
+          "hash": "Ecd3641O7hCeo1z63vVIEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Enums.ImageGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Enums.ImageGroup.html",
+          "hash": "AIZqMX7C4O1A+oYw0+6Faw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Enums.Language.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Enums.Language.html",
+          "hash": "kZ6QThnivMM5P/EscCXhnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Enums.RecommendationMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Enums.RecommendationMap.html",
+          "hash": "ibMlcerzsRid2AEMqs7LPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Enums.RecommendationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Enums.RecommendationMode.html",
+          "hash": "lpIuO4X5nKca58vjIk3SzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Enums.ResourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Enums.ResourceType.html",
+          "hash": "AHaKF0bdnRYyZbM6r+6Ohw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Enums.SpellKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Enums.SpellKey.html",
+          "hash": "PDYyruZYJ5BWbVQQx8SSzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Enums.html",
+          "hash": "AL2DlXMvTBLCXRMHtvg68g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Extensions.EnumExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Extensions.EnumExtensions.html",
+          "hash": "ciZX8viqGnU38SK45GRL/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.Extensions.html",
+          "hash": "Vdd668PxIrdWjQn64AoRXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.IDataDragonClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.IDataDragonClient.html",
+          "hash": "+kteZwCw8do2NdZyfPh+1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RiotPls.DataDragon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RiotPls.DataDragon.html",
+          "hash": "0efMQ4VjmEbzwSk5WXwlUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "1A6Dm1fJIPThAfOncEm5sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "zAbSh/JJ1PBXO5RNeRazCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "JR46ObpuvGmp3KD3XgDS4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "LX4ofFtqV8bpGnFaLUzwmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 59,
+          "skipped_file_count": 59
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

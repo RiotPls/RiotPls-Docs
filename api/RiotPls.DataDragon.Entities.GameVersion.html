@@ -1,0 +1,938 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GameVersion
+   | RiotPls Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GameVersion
+   | RiotPls Documentation ">
+    <meta name="generator" content="docfx 2.53.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="RiotPls.DataDragon.Entities.GameVersion">
+  
+  
+  <h1 id="RiotPls_DataDragon_Entities_GameVersion" data-uid="RiotPls.DataDragon.Entities.GameVersion" class="text-break">Class GameVersion
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a game version for League of Legends, like &quot;10.9.1&quot;.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">GameVersion</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a>&gt;</div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="RiotPls.DataDragon.Entities.html">RiotPls.DataDragon.Entities</a></h6>
+  <h6><strong>Assembly</strong>: RiotPls.DataDragon.dll</h6>
+  <h5 id="RiotPls_DataDragon_Entities_GameVersion_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(GameVersionJsonConverter))]
+public sealed class GameVersion : IEquatable&lt;GameVersion&gt;, IComparable&lt;GameVersion&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_Major.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.Major%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L17">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_Major_" data-uid="RiotPls.DataDragon.Entities.GameVersion.Major*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_Major" data-uid="RiotPls.DataDragon.Entities.GameVersion.Major">Major</h4>
+  <div class="markdown level1 summary"><p>The major release version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Major { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_Minor.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.Minor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L22">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_Minor_" data-uid="RiotPls.DataDragon.Entities.GameVersion.Minor*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_Minor" data-uid="RiotPls.DataDragon.Entities.GameVersion.Minor">Minor</h4>
+  <div class="markdown level1 summary"><p>The minor release version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Minor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_Patch.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.Patch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L27">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_Patch_" data-uid="RiotPls.DataDragon.Entities.GameVersion.Patch*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_Patch" data-uid="RiotPls.DataDragon.Entities.GameVersion.Patch">Patch</h4>
+  <div class="markdown level1 summary"><p>The patch release version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Patch { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_CompareTo_RiotPls_DataDragon_Entities_GameVersion_.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.CompareTo(RiotPls.DataDragon.Entities.GameVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L143">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_CompareTo_" data-uid="RiotPls.DataDragon.Entities.GameVersion.CompareTo*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_CompareTo_RiotPls_DataDragon_Entities_GameVersion_" data-uid="RiotPls.DataDragon.Entities.GameVersion.CompareTo(RiotPls.DataDragon.Entities.GameVersion)">CompareTo(GameVersion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(GameVersion other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_Equals_RiotPls_DataDragon_Entities_GameVersion_.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.Equals(RiotPls.DataDragon.Entities.GameVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L136">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_Equals_" data-uid="RiotPls.DataDragon.Entities.GameVersion.Equals*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_Equals_RiotPls_DataDragon_Entities_GameVersion_" data-uid="RiotPls.DataDragon.Entities.GameVersion.Equals(RiotPls.DataDragon.Entities.GameVersion)">Equals(GameVersion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(GameVersion other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_Equals_System_Object_.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L129">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_Equals_" data-uid="RiotPls.DataDragon.Entities.GameVersion.Equals*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_Equals_System_Object_" data-uid="RiotPls.DataDragon.Entities.GameVersion.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_GetHashCode.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L132">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_GetHashCode_" data-uid="RiotPls.DataDragon.Entities.GameVersion.GetHashCode*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_GetHashCode" data-uid="RiotPls.DataDragon.Entities.GameVersion.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_Parse_System_String_.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.Parse(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L55">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_Parse_" data-uid="RiotPls.DataDragon.Entities.GameVersion.Parse*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_Parse_System_String_" data-uid="RiotPls.DataDragon.Entities.GameVersion.Parse(System.String)">Parse(String)</h4>
+  <div class="markdown level1 summary"><p>Parses a string input into a <a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameVersion Parse(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The game version, in string form.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><p>A parsed game version object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Thrown when <code data-dev-comment-type="paramref" class="paramref">input</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.formatexception">FormatException</a></td>
+        <td><p>Thrown when <code data-dev-comment-type="paramref" class="paramref">input</code> does not have a valid format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_ToString.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L126">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_ToString_" data-uid="RiotPls.DataDragon.Entities.GameVersion.ToString*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_ToString" data-uid="RiotPls.DataDragon.Entities.GameVersion.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_TryParse_System_String_RiotPls_DataDragon_Entities_GameVersion__.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.TryParse(System.String%2CRiotPls.DataDragon.Entities.GameVersion%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L78">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_TryParse_" data-uid="RiotPls.DataDragon.Entities.GameVersion.TryParse*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_TryParse_System_String_RiotPls_DataDragon_Entities_GameVersion__" data-uid="RiotPls.DataDragon.Entities.GameVersion.TryParse(System.String,RiotPls.DataDragon.Entities.GameVersion@)">TryParse(String, out GameVersion)</h4>
+  <div class="markdown level1 summary"><p>Parses a string input into a <a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryParse(string input, out GameVersion gameVersion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The game version, in string form.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">gameVersion</span></td>
+        <td><p>A parsed game version object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if parsing was successful, otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_op_Equality_RiotPls_DataDragon_Entities_GameVersion_RiotPls_DataDragon_Entities_GameVersion_.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.op_Equality(RiotPls.DataDragon.Entities.GameVersion%2CRiotPls.DataDragon.Entities.GameVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L181">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_op_Equality_" data-uid="RiotPls.DataDragon.Entities.GameVersion.op_Equality*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_op_Equality_RiotPls_DataDragon_Entities_GameVersion_RiotPls_DataDragon_Entities_GameVersion_" data-uid="RiotPls.DataDragon.Entities.GameVersion.op_Equality(RiotPls.DataDragon.Entities.GameVersion,RiotPls.DataDragon.Entities.GameVersion)">Equality(GameVersion, GameVersion)</h4>
+  <div class="markdown level1 summary"><p>Indicates if both objects of type <a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a> are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(GameVersion left, GameVersion right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left-side input to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right-side input to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if the objects are equal. Otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_op_GreaterThan_RiotPls_DataDragon_Entities_GameVersion_RiotPls_DataDragon_Entities_GameVersion_.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.op_GreaterThan(RiotPls.DataDragon.Entities.GameVersion%2CRiotPls.DataDragon.Entities.GameVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L221">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_op_GreaterThan_" data-uid="RiotPls.DataDragon.Entities.GameVersion.op_GreaterThan*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_op_GreaterThan_RiotPls_DataDragon_Entities_GameVersion_RiotPls_DataDragon_Entities_GameVersion_" data-uid="RiotPls.DataDragon.Entities.GameVersion.op_GreaterThan(RiotPls.DataDragon.Entities.GameVersion,RiotPls.DataDragon.Entities.GameVersion)">GreaterThan(GameVersion, GameVersion)</h4>
+  <div class="markdown level1 summary"><p>Indicates if the left objects of type <a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a> is higher than the right one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator&gt;(GameVersion left, GameVersion right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left-side input to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right-side input to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if the left object is higher than the right one. Otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_op_GreaterThanOrEqual_RiotPls_DataDragon_Entities_GameVersion_RiotPls_DataDragon_Entities_GameVersion_.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.op_GreaterThanOrEqual(RiotPls.DataDragon.Entities.GameVersion%2CRiotPls.DataDragon.Entities.GameVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L261">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_op_GreaterThanOrEqual_" data-uid="RiotPls.DataDragon.Entities.GameVersion.op_GreaterThanOrEqual*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_op_GreaterThanOrEqual_RiotPls_DataDragon_Entities_GameVersion_RiotPls_DataDragon_Entities_GameVersion_" data-uid="RiotPls.DataDragon.Entities.GameVersion.op_GreaterThanOrEqual(RiotPls.DataDragon.Entities.GameVersion,RiotPls.DataDragon.Entities.GameVersion)">GreaterThanOrEqual(GameVersion, GameVersion)</h4>
+  <div class="markdown level1 summary"><p>Indicates if the left objects of type <a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a> is higher than or equal to the right one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;=(GameVersion left, GameVersion right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left-side input to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right-side input to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if the left object is higher than or equal to the right one. Otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_op_Inequality_RiotPls_DataDragon_Entities_GameVersion_RiotPls_DataDragon_Entities_GameVersion_.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.op_Inequality(RiotPls.DataDragon.Entities.GameVersion%2CRiotPls.DataDragon.Entities.GameVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L201">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_op_Inequality_" data-uid="RiotPls.DataDragon.Entities.GameVersion.op_Inequality*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_op_Inequality_RiotPls_DataDragon_Entities_GameVersion_RiotPls_DataDragon_Entities_GameVersion_" data-uid="RiotPls.DataDragon.Entities.GameVersion.op_Inequality(RiotPls.DataDragon.Entities.GameVersion,RiotPls.DataDragon.Entities.GameVersion)">Inequality(GameVersion, GameVersion)</h4>
+  <div class="markdown level1 summary"><p>Indicates if both objects of type <a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a> are not equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(GameVersion left, GameVersion right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left-side input to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right-side input to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">false</span> if the objects are equal. Otherwise <span class="xref">true</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_op_LessThan_RiotPls_DataDragon_Entities_GameVersion_RiotPls_DataDragon_Entities_GameVersion_.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.op_LessThan(RiotPls.DataDragon.Entities.GameVersion%2CRiotPls.DataDragon.Entities.GameVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L241">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_op_LessThan_" data-uid="RiotPls.DataDragon.Entities.GameVersion.op_LessThan*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_op_LessThan_RiotPls_DataDragon_Entities_GameVersion_RiotPls_DataDragon_Entities_GameVersion_" data-uid="RiotPls.DataDragon.Entities.GameVersion.op_LessThan(RiotPls.DataDragon.Entities.GameVersion,RiotPls.DataDragon.Entities.GameVersion)">LessThan(GameVersion, GameVersion)</h4>
+  <div class="markdown level1 summary"><p>Indicates if the left objects of type <a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a> is lower than the right one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;(GameVersion left, GameVersion right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left-side input to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right-side input to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if the left object is lower than the right one. Otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion_op_LessThanOrEqual_RiotPls_DataDragon_Entities_GameVersion_RiotPls_DataDragon_Entities_GameVersion_.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion.op_LessThanOrEqual(RiotPls.DataDragon.Entities.GameVersion%2CRiotPls.DataDragon.Entities.GameVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L276">View Source</a>
+  </span>
+  <a id="RiotPls_DataDragon_Entities_GameVersion_op_LessThanOrEqual_" data-uid="RiotPls.DataDragon.Entities.GameVersion.op_LessThanOrEqual*"></a>
+  <h4 id="RiotPls_DataDragon_Entities_GameVersion_op_LessThanOrEqual_RiotPls_DataDragon_Entities_GameVersion_RiotPls_DataDragon_Entities_GameVersion_" data-uid="RiotPls.DataDragon.Entities.GameVersion.op_LessThanOrEqual(RiotPls.DataDragon.Entities.GameVersion,RiotPls.DataDragon.Entities.GameVersion)">LessThanOrEqual(GameVersion, GameVersion)</h4>
+  <div class="markdown level1 summary"><p>Indicates if the left objects of type <a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a> is lower than or equal to the right one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;=(GameVersion left, GameVersion right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left-side input to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="RiotPls.DataDragon.Entities.GameVersion.html">GameVersion</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right-side input to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if the left object is lower than or equal to the right one. Otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">System.IComparable&lt;T&gt;</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RiotPls/RiotPls/new/master/apiSpec/new?filename=RiotPls_DataDragon_Entities_GameVersion.md&amp;value=---%0Auid%3A%20RiotPls.DataDragon.Entities.GameVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RiotPls/RiotPls/blob/master/src/RiotPls.DataDragon/Entities/GameVersion.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            RiotPls (c) 2020 1.0.0
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

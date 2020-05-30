@@ -86,71 +86,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/RiotPls.DataDragon.Converters.ChampionTypeJsonConverter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RiotPls.DataDragon.Converters.ChampionTypeJsonConverter.html",
-          "hash": "gOizUCszl9rRW0uUvcPTYw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RiotPls.DataDragon.Converters.DoubleArrayJsonConverter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RiotPls.DataDragon.Converters.DoubleArrayJsonConverter.html",
-          "hash": "lndZZIGedTe+N4ffYFyK9w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RiotPls.DataDragon.Converters.GameVersionJsonConverter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RiotPls.DataDragon.Converters.GameVersionJsonConverter.html",
-          "hash": "6hBELJRPFwVOTtdUrREDGA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RiotPls.DataDragon.Converters.LanguageJsonConverter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RiotPls.DataDragon.Converters.LanguageJsonConverter.html",
-          "hash": "DNWevJZTAQ/txCU2xu013A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RiotPls.DataDragon.Converters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RiotPls.DataDragon.Converters.html",
-          "hash": "O1XWwAvK46UqunKxew2cFg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/RiotPls.DataDragon.DataDragonClient.yml",
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.DataDragonClient.html",
-          "hash": "3UYFCQNxtgd2GDRzq7LM3w=="
+          "hash": "oy0SCPaXp8p1xN8545grYw=="
         }
       },
       "is_incremental": false,
@@ -270,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.Item.html",
-          "hash": "J2SPRQ+ukU1qBli2erwbsQ=="
+          "hash": "8JNOBxDSMucmpUz1v+gK/g=="
         }
       },
       "is_incremental": false,
@@ -295,18 +235,6 @@
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ItemEffect.html",
           "hash": "W+7jvgLiFTfJ9Nc1hTxZxA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RiotPls.DataDragon.Entities.ItemEffectDto.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RiotPls.DataDragon.Entities.ItemEffectDto.html",
-          "hash": "oWIQQLYW35UPh3zmzU6U2Q=="
         }
       },
       "is_incremental": false,
@@ -343,18 +271,6 @@
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.ItemTree.html",
           "hash": "s4Rbch4ky4NKriXktz27Iw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RiotPls.DataDragon.Entities.ItemTreeDto.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RiotPls.DataDragon.Entities.ItemTreeDto.html",
-          "hash": "1K5d1rai7KOvwXQmgM7fgQ=="
         }
       },
       "is_incremental": false,
@@ -446,18 +362,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/RiotPls.DataDragon.Entities.RuneItemDto.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RiotPls.DataDragon.Entities.RuneItemDto.html",
-          "hash": "rTZ+RWajTp9vNnHkT1t31w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/RiotPls.DataDragon.Entities.RuneSlot.yml",
       "output": {
         ".html": {
@@ -522,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.Entities.html",
-          "hash": "cF2re9c+AvLG2W1IJuXlNA=="
+          "hash": "pG6GHF8h9JTo0DZ7ZUynCw=="
         }
       },
       "is_incremental": false,
@@ -702,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RiotPls.DataDragon.IDataDragonClient.html",
-          "hash": "qJ0yHjHrKU7Pg71us0XJuA=="
+          "hash": "9yN+Fr18HNbXtNof/CKvKg=="
         }
       },
       "is_incremental": false,
@@ -738,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "zAbSh/JJ1PBXO5RNeRazCA=="
+          "hash": "ENCGhIa1HqyhF1yosayxvQ=="
         }
       },
       "is_incremental": false,
@@ -811,8 +715,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 59,
-          "skipped_file_count": 7
+          "total_file_count": 51,
+          "skipped_file_count": 44
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
